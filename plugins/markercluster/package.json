@@ -1,0 +1,25 @@
+{
+  "name": "leaflet-markercluster",
+  "version": "0.2.0",
+  "description": "Provides Beautiful Animated Marker Clustering functionality for Leaflet",
+  "main": "leaflet.markercluster-src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danzel/Leaflet.markercluster.git"
+  },
+  "keywords": [
+    "leaflet",
+    "maps",
+    "mobile",
+    "marker",
+    "ender"
+  ],
+  "dependencies" : {
+    "leaflet-engine"   :  ">=0.4.2"
+  },
+  "author": "David Leaver",
+  "license": "MIT"
+}
