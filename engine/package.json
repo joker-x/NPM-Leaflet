@@ -3,9 +3,6 @@
   "version": "0.4.5",
   "description": "Leaflet is an open-source JavaScript library for mobile-friendly interactive maps.",
   "main": "leaflet-src.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/CloudMade/Leaflet.git"
@@ -15,8 +12,18 @@
     "maps",
     "mobile",
     "npm",
-    "ender"
+    "jam"
   ],
+  "jam": {
+    "main": "leaflet-src.js"
+  },
   "author": "CloudMade, Vladimir Agafonkin",
-  "license": "https://github.com/CloudMade/Leaflet/blob/master/LICENSE"
+  "licenses": [{
+    "name": "OpenSource",
+    "url": "https://github.com/CloudMade/Leaflet/blob/master/LICENSE"
+  }],
+  "maintainers": [{
+    "name": "Iván Eixarch",
+    "email": "ivan@sinanimodelucro.org"
+  }]
 }

@@ -3,9 +3,6 @@
   "version": "0.5.0",
   "description": "Leaflet plugin for loading a CSV file as geoJSON layer",
   "main": "leaflet.geocsv-src.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/joker-x/Leaflet.geoCSV.git"
@@ -14,12 +11,19 @@
     "leaflet",
     "maps",
     "mobile",
-    "ender",
+    "jam",
     "CSV"
   ],
-  "dependencies" : {
-    "leaflet-engine"   :  ">=0.4.2"
+  "jam" : {
+    "main": "leaflet.geocsv-src.js",
+    "dependencies" : {
+      "leaflet-engine"   :  ">=0.4.2"
+    }
   },
   "author": "Iván Eixarch <ivan@sinanimodelucro.org>",
-  "license": "GPL"
+  "license": "GPL",
+  "maintainers": [{
+    "name": "Iván Eixarch",
+    "email": "ivan@sinanimodelucro.org"
+  }]
 }
